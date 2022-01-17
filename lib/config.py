@@ -15,11 +15,11 @@ sentinel_version = "1.6.0"
 
 def get_dash_conf():
     if sys.platform == 'win32':
-        dash_conf = os.path.join(os.getenv('APPDATA'), "DashCore/dash.conf")
+        dash_conf = os.path.join(os.getenv('APPDATA'), "HCCCore/hcc.conf")
     else:
         home = os.environ.get('HOME')
 
-        dash_conf = os.path.join(home, ".dashcore/dash.conf")
+        dash_conf = os.path.join(home, ".hcccore/hcc.conf")
         if sys.platform == 'darwin':
             dash_conf = os.path.join(home, "Library/Application Support/DashCore/dash.conf")
 
