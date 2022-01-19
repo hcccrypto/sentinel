@@ -11,7 +11,6 @@ Sentinel is an autonomous agent for persisting, processing and automating HCC go
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Troubleshooting](#troubleshooting)
-- [Maintainer](#maintainer)
 - [Contributing](#contributing)
 - [License](#license)
 
