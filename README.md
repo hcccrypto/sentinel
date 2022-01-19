@@ -1,4 +1,4 @@
-# HCC Sentinel
+# HealthCareCoin Sentinel
 
 
 > An automated governance helper for HCC Masternodes.
