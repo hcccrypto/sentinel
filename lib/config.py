@@ -21,7 +21,7 @@ def get_dash_conf():
 
         dash_conf = os.path.join(home, ".hcccore/hcc.conf")
         if sys.platform == 'darwin':
-            dash_conf = os.path.join(home, "Library/Application Support/DashCore/dash.conf")
+            dash_conf = os.path.join(home, "Library/Application Support/HCCCore/hcc.conf")
 
     dash_conf = sentinel_cfg.get('dash_conf', dash_conf)
 
